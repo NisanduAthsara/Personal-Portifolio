@@ -197,6 +197,7 @@ body{
     font-size:18px;
     color:#fff;
     line-height:200%;
+    text-align:justify;
 }
 
 .skills{
@@ -247,4 +248,101 @@ body{
 
 .quali-h{
     margin-top:100px;
+    margin-bottom:50px;
+}
+
+.all-certificates{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.certificate{
+    width:50%;
+}
+
+.certificate-h,
+.achieve-h{
+    font-size:20px;
+    color:#fff;
+    margin-bottom:15px;
+    font-weight: 500;
+}
+
+.fa-medal,
+.fa-trophy{
+    color:#f56105;
+}
+
+.all-archievements{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.achieve{
+    width:50%;
+}
+
+@media only screen and (max-width: 980px){
+    .who-am-i,
+    .skills,
+    .qualifications{
+        margin-left:20px;
+    }
+}
+
+@media only screen and (max-width: 875px){
+    .all-archievements,
+    .all-certificates{
+        display:block;
+    }
+
+    .achieve,
+    .certificate{
+        width:100%;
+    }
+
+    .all-archievements{
+        margin-top:60px;
+    }    
+}
+
+@media only screen and (max-width: 650px){
+    .who-am-i-h,
+    .skills-h,
+    .quali-h{
+        font-size:30px;
+    }   
+    .about-h{
+        font-size:50px;
+    }
+    .who-am-i-p,
+    .skill-name{
+        font-size:15px;
+    }
+    .skill{
+        padding:2px;
+    }
+    .certificate-h,
+    .achieve-h{
+        font-size:16px;
+    }
+    .all-archievements{
+        margin-top:25px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .about{
+        margin:30px;
+        margin-top:170px;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .who-am-i,
+    .skills,
+    .qualifications{
+        margin-left:10px;
+    }
 }
