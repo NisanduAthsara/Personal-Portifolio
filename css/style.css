@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,400;1,300&family=Comfortaa:wght@600&family=Hubballi&family=PT+Sans&family=Poppins:ital@1&family=Roboto:ital,wght@0,300;0,400;1,500&family=Source+Sans+Pro:wght@600;700&display=swap');
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: rgb(28, 27, 31); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border:2px solid #eb8b50;
+  }
+
 *{
     margin:0;
     padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body{
@@ -148,4 +166,85 @@ body{
     .main-img{
         width:80%;
     }
+}
+
+.about{
+    margin:80px;
+    margin-top:170px;
+}
+
+.about-h{
+    font-size:60px;
+    color:#f56105;
+}
+
+.who-am-i,
+.skills,
+.qualifications{
+    margin-top:60px;
+    margin-left:50px;
+}
+
+.who-am-i-h,
+.skills-h,
+.quali-h{
+    font-size:40px;
+    color:#f56105;
+    margin-bottom:20px;
+}
+
+.who-am-i-p{
+    font-size:18px;
+    color:#fff;
+    line-height:200%;
+}
+
+.skills{
+    margin-top:100px;
+}
+
+.one-skill-div{
+    width:100%;
+    background:grey;
+}
+
+.skills-h{
+    margin-bottom:40px;
+}
+
+.skill{
+    padding:3px;
+    color:#fff;
+    text-align:right;
+    background:#f56105;
+    margin-bottom:20px;
+}
+
+.skill-name{
+    color:#fff;
+    font-size:18px;
+    margin-bottom:5px;
+}
+
+.js,
+.java,
+.py{
+    width:90%;
+}
+
+.html,
+.php{
+    width:85%;
+}
+
+.express{
+    width:80%;
+}
+
+.react{
+    width:75%;
+}
+
+.quali-h{
+    margin-top:100px;
 }
