@@ -679,3 +679,29 @@ body{
         width:100%;
     }
 }
+
+footer{
+    margin-top:170px;
+}
+
+.inner-footer{
+    padding:20px;
+    background-color: #000;
+}
+
+.inner-footer-p{
+    color:#fff;
+    text-align:center;
+    font-size:17px;
+    font-weight: 600;
+}
+
+.footer-special{
+    color:#e19668;
+}
+
+@media only screen and (max-width: 600px){
+    .inner-footer-p{
+        font-size: 15px;
+    }
+}
