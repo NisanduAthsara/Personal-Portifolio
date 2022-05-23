@@ -176,7 +176,8 @@
                     </div>
                 </div>
             </div>
-            <div class="project up-margin">
+            <button onclick="toggle1Func()" id="toggle-btn" class="toggle-btns">Show More <i class="fa-solid fa-angle-down"></i></button>    
+            <div class="project up-margin toggle-show1 toggle">
                 <div class="inner-project">
                     <img src="img/crackit.jpg" class="inner-project-img"/>
                     <h1 class="inner-project-h">CrackIT</h1>
@@ -186,7 +187,7 @@
                     </div>
                 </div>
             </div>
-            <div class="project up-margin">
+            <div class="project up-margin toggle-show2 toggle">
                 <div class="inner-project">
                     <img src="img/traveln.jpg" class="inner-project-img"/>
                     <h1 class="inner-project-h">Traveln</h1>
@@ -196,7 +197,7 @@
                     </div>
                 </div>
             </div>
-            <div class="project up-margin">
+            <div class="project up-margin toggle-show3 toggle" id="proj-id">
                 <div class="inner-project">
                     <img src="img/tip.jpg" class="inner-project-img"/>
                     <h1 class="inner-project-h">Tip Calculator</h1>
@@ -206,7 +207,7 @@
                     </div>
                 </div>
             </div>
-            <div class="project up-margin">
+            <div class="project up-margin toggle-show toggle">
                 <div class="inner-project">
                     <img src="img/currency.jpg" class="inner-project-img"/>
                     <h1 class="inner-project-h">Currency Converter</h1>
@@ -216,6 +217,7 @@
                     </div>
                 </div>
             </div>
+            <button onclick="toggle2Func()" class="toggle-btns" id="toggle-btn2">Show Less <i class="fa-solid fa-angle-up"></i></button>   
         </div>
     </div>
     <div class="contact" id="contact">
@@ -238,6 +240,8 @@
             <p class="inner-footer-p">Copyright © 2022 <span class="footer-special">Nisandu Athsara</span> All Rights Reserved</p>
         </div>
     </footer>
+
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 
 </html>

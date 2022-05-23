@@ -589,6 +589,41 @@ nav {
     margin:10px;
 }
 
+.toggle{
+    display:none;
+}
+
+#toggle-btn2{
+    display:none;
+}
+
+.toggle-btns{
+    width:100%;
+    margin-top:50px;
+    background:none;
+    border:2px solid #f56105;
+    padding:20px;
+    color:#f56105;
+    font-size:25px;
+    border-radius:10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:900;
+    text-align:center;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.toggle-btns:hover{
+    border:2px solid #ef8848;
+}
+
+.fa-angle-up,
+.fa-angle-down{
+    font-weight:900;
+    padding-left:10px;
+    padding-top:10px;
+}
+
 .inner-project-img{
     width:100%;
 }
@@ -650,11 +685,23 @@ nav {
     .bit-up-margin{
         margin-top:70px;
     }
+    .toggle-btns{
+        width:70%;
+        margin-left:15%;
+        margin-right:15%;
+        font-size:20px;
+        padding:15px;
+    }
 }
 
 @media only screen and (max-width: 1000px){
     .project{
         width:80%;
+    }
+    .toggle-btns{
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
     }
 }
 
@@ -662,17 +709,35 @@ nav {
     .project{
         width:90%;
     }
+    .toggle-btns{
+        width:102%;
+        margin-left:0;
+        margin-right:0;
+    }
 }
 
 @media only screen and (max-width: 600px){
     .projects{
         margin-left:30px;
     }
+    .toggle-btns{
+        width:105%;
+        margin-left:0;
+        margin-right:0;
+    }
+    .about{
+        margin-top: 80px;
+    }
 }
 
 @media only screen and (max-width: 550px){
     .project{
         width:98%;
+    }
+    .toggle-btns{
+        width:115%;
+        margin-left:0;
+        margin-right:0;
     }
 }
 
