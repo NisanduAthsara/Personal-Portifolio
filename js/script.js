@@ -1,25 +1,17 @@
-var toggle = document.querySelector(".toggle-show")
-var toggle1 = document.querySelector(".toggle-show1")
-var toggle2 = document.querySelector(".toggle-show2")
-var toggle3 = document.querySelector(".toggle-show3")
+$("#toggle-btn").click(function(){
+    $(".toggle-show").show(300)
+    $(".toggle-show1").show(300)
+    $(".toggle-show2").show(300)
+    $(".toggle-show3").show(300)
+    $(this).hide();
+    $("#toggle-btn2").show()
+})
 
-var showMoreBtn = document.getElementById("toggle-btn")
-var showLessBtn = document.getElementById("toggle-btn2")
-
-function toggle1Func(){
-    toggle.style.display = "flex";
-    toggle1.style.display = "flex";
-    toggle2.style.display = "flex";
-    toggle3.style.display = "flex";
-    showMoreBtn.style.display = "none";
-    showLessBtn.style.display = "block";
-}
-
-function toggle2Func(){
-    toggle.style.display = "none";
-    toggle1.style.display = "none";
-    toggle2.style.display = "none";
-    toggle3.style.display = "none";
-    showMoreBtn.style.display = "block";
-    showLessBtn.style.display = "none";
-}
+$("#toggle-btn2").click(function(){
+    $(".toggle-show").hide(300)
+    $(".toggle-show1").hide(300)
+    $(".toggle-show2").hide(300)
+    $(".toggle-show3").hide(300)
+    $(this).hide();
+    $("#toggle-btn").show()
+})
