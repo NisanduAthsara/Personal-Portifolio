@@ -687,11 +687,10 @@ nav {
         margin-top:70px;
     }
     .toggle-btns{
-        width:70%;
-        margin-left:15%;
-        margin-right:15%;
-        font-size:20px;
-        padding:15px;
+        display:block;
+        width:64%;
+        margin-left:auto;
+        margin-right:auto;
     }
 }
 
@@ -701,8 +700,8 @@ nav {
     }
     .toggle-btns{
         width:90%;
-        margin-left:5%;
-        margin-right:5%;
+        margin-left:auto;
+        margin-right:auto;
     }
 }
 
@@ -711,9 +710,9 @@ nav {
         width:90%;
     }
     .toggle-btns{
-        width:102%;
-        margin-left:0;
-        margin-right:0;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
     }
 }
 
@@ -721,11 +720,11 @@ nav {
     .projects{
         margin-left:30px;
     }
-    .toggle-btns{
+    /* .toggle-btns{
         width:105%;
         margin-left:0;
         margin-right:0;
-    }
+    } */
     .about{
         margin-top: 80px;
     }
@@ -736,7 +735,7 @@ nav {
         width:98%;
     }
     .toggle-btns{
-        width:115%;
+        width:105%;
         margin-left:0;
         margin-right:0;
     }
